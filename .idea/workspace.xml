@@ -5,30 +5,99 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="96c9ea78-550d-4780-afab-5b6632b773f8" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Фон.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/Фон.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/GFS_Didot/GFSDidot-Regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/Inter/Inter-Bold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/Inter/Inter-Italic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/Inter/Inter-Medium.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/Inter/Inter-Regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/Inter/Inter-SemiBold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/Montserrat/Montserrat-Medium.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/Montserrat/Montserrat-Regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/Montserrat/Montserrat-SemiBold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/Parisienne/Parisienne-Regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/Playfair_Display/PlayfairDisplay-Bold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/Playfair_Display/PlayfairDisplay-Italic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/Playfair_Display/PlayfairDisplay-Regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/Playfair_Display/PlayfairDisplay-SemiBold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/scripts/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/scripts/pages/unique-testing.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/styles/fonts.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/styles/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/styles/reset.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unique-testing.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/everyday-casual.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Everyday Casual.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/decor-fon1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/en.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/galka-icon.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/girl1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/home2-block-row/img1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/home2-block-row/img2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/home2-block-row/img3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/home2-block-row/img4-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/home2-block-row/img4-3-mob.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/home2-block-row/img4-3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/home2-block-row/img4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/icons/burger-1.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/icons/burger-2.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/img-fon-5-mobile.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/img-fon-5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/main-section-fon-mob.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/main-section-fon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/men1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/my-person-section.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/section-begin.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/section-result/img1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/section-result/img2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/section-result/img3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/section-result/img4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/settings-close.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/settings.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/stylist-section.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/unique-testing-section.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Фон.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Фон2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/баннер.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/swiper.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/swiper2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-person.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-style-base.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/price-list.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/main.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/swiper.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-result.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unique_testing.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="EmbeddingIndexingInfo">
+    <option name="cachedIndexableFilesCount" value="37" />
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "torosyan-99"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;torosyan-99&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/torrosyan99/Persolisse.git",
-    "accountId": "2085c165-26e7-4324-9126-da9021288390"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/torrosyan99/Persolisse.git&quot;,
+    &quot;accountId&quot;: &quot;2085c165-26e7-4324-9126-da9021288390&quot;
   }
-}]]></component>
+}</component>
   <component name="McpProjectServerCommands">
     <commands />
     <urls />
@@ -44,31 +113,57 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "JavaScript Debug.home2.html.executor": "Run",
+    "JavaScript Debug.index.html (1).executor": "Run",
     "JavaScript Debug.index.html.executor": "Run",
+    "JavaScript Debug.unique-testing.html.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.MCP Project settings loaded": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "codeWithMe.voiceChat.enabledByDefault": "false",
     "git-widget-placeholder": "main",
     "javascript.preferred.runtime.type.id": "node",
-    "last_opened_file_path": "C:/Users/99tor/Dekstop/Work/Atellier",
+    "last_opened_file_path": "C:/Users/99tor/Dekstop/Work/Atellier-my",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "editor.preferences.appearance",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\99tor\Dekstop\Work\Atellier-my\assets\scripts\pages" />
+      <recent name="C:\Users\99tor\Dekstop\Work\Atellier\assets\fonts\GFS_Didot" />
+      <recent name="C:\Users\99tor\Dekstop\Work\Atellier\assets\fonts\Parisienne" />
+      <recent name="C:\Users\99tor\Dekstop\Work\Atellier\assets\fonts\Plaifair_Display" />
+      <recent name="C:\Users\99tor\Dekstop\Work\Atellier\assets\fonts\Montserrat" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JavaScript Debug.unique-testing.html">
+    <configuration name="home2.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Atellier/home2.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="index.html (1)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Atellier-my/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
     <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Atellier/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="unique-testing.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Atellier-my/unique-testing.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.unique-testing.html" />
+        <item itemvalue="JavaScript Debug.index.html (1)" />
         <item itemvalue="JavaScript Debug.index.html" />
+        <item itemvalue="JavaScript Debug.home2.html" />
       </list>
     </recent_temporary>
   </component>
@@ -87,11 +182,24 @@
       <option name="presentableId" value="Default" />
       <updated>1779277875942</updated>
       <workItem from="1779277880699" duration="569000" />
-      <workItem from="1779299247901" duration="1650000" />
+      <workItem from="1779299247901" duration="23528000" />
+      <workItem from="1779447348279" duration="37568000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/assets/scripts/main.js</url>
+          <line>229</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

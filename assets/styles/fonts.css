@@ -1,0 +1,107 @@
+/* Inter */
+
+@font-face {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    src: url("../fonts/Inter/Inter-Bold.ttf");
+}
+
+@font-face {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    src: url("../fonts/Inter/Inter-SemiBold.ttf");
+}
+
+@font-face {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    src: url("../fonts/Inter/Inter-Medium.ttf");
+}
+
+@font-face {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    src: url("../fonts/Inter/Inter-Regular.ttf");
+}
+
+@font-face {
+    font-family: 'Inter';
+    font-style: italic;
+    font-weight: 400;
+    src: url("../fonts/Inter/Inter-Italic.ttf");
+}
+
+/* Montserrat */
+
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    src: url("../fonts/Montserrat/Montserrat-SemiBold.ttf");
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    src: url("../fonts/Montserrat/Montserrat-Medium.ttf");
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    src: url("../fonts/Montserrat/Montserrat-Regular.ttf");
+}
+
+/* Playfair Display */
+
+@font-face {
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 700;
+    src: url("../fonts/Playfair_Display/PlayfairDisplay-Bold.ttf");
+}
+
+@font-face {
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 600;
+    src: url("../fonts/Playfair_Display/PlayfairDisplay-SemiBold.ttf");
+}
+
+@font-face {
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 400;
+    src: url("../fonts/Playfair_Display/PlayfairDisplay-Regular.ttf");
+}
+
+@font-face {
+    font-family: 'Playfair Display';
+    font-style: italic;
+    font-weight: 400;
+    src: url("../fonts/Playfair_Display/PlayfairDisplay-Italic.ttf");
+}
+
+/* Parisienne */
+
+@font-face {
+    font-family: 'Parisienne';
+    font-style: normal;
+    font-weight: 400;
+    src: url("../fonts/Parisienne/Parisienne-Regular.ttf");
+}
+
+/* GFS Didot */
+
+@font-face {
+    font-family: 'GFS Didot';
+    font-style: normal;
+    font-weight: 400;
+    src: url("../fonts/GFS_Didot/GFSDidot-Regular.ttf");
+}
