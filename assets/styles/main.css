@@ -13,6 +13,7 @@
 
 html {
     scrollbar-gutter: stable;
+    background: var(--main-bg);
 }
 
 body {
@@ -255,7 +256,6 @@ h4 {
     height: 39px;
     padding: 0 24px;
 }
-
 
 .how-it-works__top {
     text-align: center;
