@@ -85,7 +85,7 @@
 			<div class="header__menu">
 				<nav class="header__nav">
 					<a class="header__link" href="#">Home</a>
-					<a class="header__link header__link--active" href="unique-testing.html">Unique Testing</a>
+					<a class="header__link" href="unique-testing.html">Unique Testing</a>
 				</nav>
 				<a class="logo header__logo" href="/" aria-label="Persolisse home">Persolisse</a>
 				<div class="header__right">
@@ -96,7 +96,7 @@
 						        data-type='register'>
 							Login
 						</button>
-						<a class="header__link" href="pricing.html">Pricing</a>
+						<a class="header__link header__link--active" href="pricing.html">Pricing</a>
 					</nav>
 					<div class="header__lang">
 						<button class="header__lang-button">
@@ -128,70 +128,89 @@
 
 <main class="main">
 
-	<section class="unique-testing">
-		<div class="container unique-testing__inner">
-			<div class="unique-testing__wrapper">
-				<h2 class="title">
-					Archetype and Style test
-				</h2>
-				<p class="unique-testing__text">
-					This test will determine your Archetype, based on which we will determine your unique Clothing Style
-				</p>
-			</div>
-			<img class="unique-testing__img" src="assets/images/unique-testing-img.png" alt=""/>
-			<div class="box unique-testing__quiz quiz">
-				<div class="unique-testing__quiz-top">
-					<p class="quiz__passed-text unique-testing__passed-text"></p>
-					<div class="quiz__steps"></div>
-					<div class="quiz__steps-line unique-testing__quiz-line">
-						<div class="quiz__steps-line-active"></div>
+	<section class="pricing pt-m">
+		<div class="container">
+			<h2 class="title title--center">Select your subscription</h2>
+			<ol class="pricing__list">
+				<li class="box pricing__item">
+					<h4 class="pricing__item-title">Free Plan</h4>
+					<div class="pricing__points">
+						<div class="pricing__point">
+							Unlimited Unique Styles for every situation
+						</div>
+						<div class="pricing__point">
+							Export your Unique Styles to PDF
+						</div>
+						<div class="pricing__point">
+							Style for your current location and weather
+						</div>
+						<div class="pricing__point">
+							Unlimited changes for your previous styles
+						</div>
+						<div class="pricing__point">
+							Sharing of your styles with the other users
+						</div>
 					</div>
-				</div>
+					<div class="pricing__item-bottom">
+						<h4 class="pricing__price">
+							Free to use
+						</h4>
+						<button class="button pricing__button">
+							Select Plan
+						</button>
+					</div>
+				</li>
+				<li class="box pricing__item pricing__item--advanced">
+					<h4 class="pricing__item-title">Advanced Plan</h4>
+					<div class="pricing__points">
+						<div class="pricing__point">
+							All Free Plan features included
+						</div>
+						<div class="pricing__point">
+							Collecting all items from your style to order on marketplaces
+						</div>
+						<div class="pricing__point">
+							Regular updates of your style for any of your life situations
+						</div>
+					</div>
+					<p class="pricing__item-plan p-24">
+						Recommended Plan for new users
+					</p>
+					<div class="pricing__item-bottom">
+						<h4 class="pricing__price">
+							Only 10 EUR/Monthly
+						</h4>
+						<button class="button pricing__button">
+							Select Plan
+						</button>
+					</div>
+				</li>
+				<li class="box pricing__item pricing__item--premium">
+					<h4 class="pricing__item-title">Premium Plan</h4>
+					<div class="pricing__points">
+						<div class="pricing__point">
+							All Advanced Plan features included
+						</div>
+						<div class="pricing__point">
+							Your Private Stylist available on touch for any consulations of your Unique Style						</div>
+						<div class="pricing__point">
+							Private Stylist meetings on our Fashion Showrooms for building even more your personalized look for your lifestyle
+						</div>
+					</div>
+					<p class="pricing__item-plan p-24">
+						Active until 15 April 2026
+					</p>
+					<div class="pricing__item-bottom">
+						<h4 class="pricing__price">
+							Only 30 EUR/Monthly
+						</h4>
+						<button class="button button--light pricing__button">
+							Upgrade Plan
+						</button>
+					</div>
+				</li>
+			</ol>
 
-				<img class="unique-testing__img-m" src="assets/images/unique-testing-img-m.png" alt=""/>
-				<h3 class="quiz__title unique-testing__quiz-title"></h3>
-				<form class="quiz__answers">
-					<button class="quiz__answer">
-							<span class="quiz__check">
-								<svg width="12" height="8">
-									<use xlink:href="assets/images/icons.svg#check"></use>
-								</svg>
-							</span>
-						<span>Minimalism / clean lines</span>
-					</button>
-					<button class="quiz__answer">
-							<span class="quiz__check">
-								<svg width="12" height="8">
-									<use xlink:href="assets/images/icons.svg#check"></use>
-								</svg>
-							</span>
-						<span>Classic / elegance</span>
-					</button>
-					<button class="quiz__answer">
-							<span class="quiz__check">
-								<svg width="12" height="8">
-									<use xlink:href="assets/images/icons.svg#check"></use>
-								</svg>
-							</span>
-						<span>Casual / Relaxed</span>
-					</button>
-					<button class="quiz__answer">
-							<span class="quiz__check">
-								<svg width="12" height="8">
-									<use xlink:href="assets/images/icons.svg#check"></use>
-								</svg>
-							</span>
-						<span>Experimental / unusual</span>
-					</button>
-				</form>
-
-				<div class="unique-testing__quiz-bottom">
-					<button class="button button--ghost button--small quiz__back">
-						Back
-					</button>
-				</div>
-
-			</div>
 		</div>
 	</section>
 
