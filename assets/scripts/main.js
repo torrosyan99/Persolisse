@@ -306,6 +306,7 @@ if (userButton) {
   const user = document.querySelector('.user');
 
   userButton.addEventListener('click', () => {
+    scrollTo(0, 0)
     user.classList.toggle('user--active');
     account.classList.toggle('account--user-opened');
     document.body.classList.toggle('body-account-overflow');
