@@ -1,23 +1,22 @@
 <!doctype html>
 <html lang="en">
+
 <head>
 	<meta charset="UTF-8">
-	<meta name="viewport"
-	      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<title>Document</title>
 
-	<link rel="stylesheet" type="text/css" href="assets/styles/fonts.css"/>
-	<link rel="stylesheet" type="text/css" href="assets/styles/reset.css"/>
-	<link rel="stylesheet" type="text/css" href="assets/styles/main.css"/>
+	<link rel="stylesheet" type="text/css" href="assets/styles/fonts.css" />
+	<link rel="stylesheet" type="text/css" href="assets/styles/reset.css" />
+	<link rel="stylesheet" type="text/css" href="assets/styles/main.css" />
 </head>
+
 <body>
 
 
 <div class="overlay">
-	<div class="modal register"
-	     role="dialog"
-	     data-modal-type="register">
+	<div class="modal register" role="dialog" data-modal-type="register">
 		<button class="modal__close" type="button" aria-label="Close modal">
 			<svg width="18" height="18">
 				<use xlink:href="assets/images/icons.svg#cancel"></use>
@@ -26,14 +25,13 @@
 		<h2 class="title title--center">Let's creat account for your Persolisse</h2>
 		<form class="modal-form register__form">
 			<div class="modal-form__item">
-				<input class="input" type="text" name="username" placeholder="Your name"/>
+				<input class="input" type="text" name="username" placeholder="Your name" />
 			</div>
 			<div class="modal-form__item">
-				<input class="input" type="text" name="email" placeholder="Your email"/>
+				<input class="input" type="text" name="email" placeholder="Your email" />
 			</div>
 			<div class="modal-form__item">
-				<input class="input" type="password" name="password" placeholder="Your password"
-				       autocomplete="new-password"/>
+				<input class="input" type="password" name="password" placeholder="Your password" autocomplete="new-password" />
 			</div>
 			<button type="submit" class="button modal-form__button">
 				SIGN UP
@@ -45,9 +43,7 @@
 		<button class="register__login button button--ghost" type="button">LOG IN</button>
 		<button class="button button--ghost" type="button">Continue as GUEST</button>
 	</div>
-	<div class="modal login"
-	     role="dialog"
-	     data-modal-type="login">
+	<div class="modal login" role="dialog" data-modal-type="login">
 		<button class="modal__close" type="button" aria-label="Close modal">
 			<svg width="18" height="18">
 				<use xlink:href="assets/images/icons.svg#cancel"></use>
@@ -56,11 +52,10 @@
 		<h2 class="title title--center">LOG IN</h2>
 		<form class="modal-form login__form">
 			<div class="modal-form__item">
-				<input class="input" type="text" name="email" placeholder="Your email"/>
+				<input class="input" type="text" name="email" placeholder="Your email" />
 			</div>
 			<div class="modal-form__item">
-				<input class="input" type="password" name="password" placeholder="Your password"
-				       autocomplete="current-password"/>
+				<input class="input" type="password" name="password" placeholder="Your password" autocomplete="current-password" />
 			</div>
 			<p class="modal-form__error error-text">
 				The password is incorrect! <span> Restore it?</span>
@@ -70,8 +65,7 @@
 			</button>
 		</form>
 	</div>
-	<div class="modal questions" role="dialog"
-	     data-modal-type="questions">
+	<div class="modal questions" role="dialog" data-modal-type="questions">
 		<div class="questions__top">
 			<p class="p-24 questions__top-text">
 				Next questions of the testing - for Better know my self
@@ -85,8 +79,8 @@
 		</div>
 		<div class="questions__content">
 			<picture class="questions__picture">
-				<source srcset="assets/images/questions-img-m.png" media="(max-width: 480px)"/>
-				<img class="questions__img" src="assets/images/questions-img.png" alt=""/>
+				<source srcset="assets/images/questions-img-m.png" media="(max-width: 480px)" />
+				<img class="questions__img" src="assets/images/questions-img.png" alt="" />
 			</picture>
 			<div class="questions__wrapper">
 				<div class="questions__quiz-content">
@@ -129,10 +123,7 @@
 				<a class="logo header__logo" href="/" aria-label="Persolisse home">Persolisse</a>
 				<div class="header__right">
 					<nav class="header__actions">
-						<button class="modal-button header__login-button"
-						        aria-label="Open modal"
-						        type="button"
-						        data-type='register'>
+						<button class="modal-button header__login-button" aria-label="Open modal" type="button" data-type='register'>
 							Login
 						</button>
 						<a class="header__link" href="pricing.html">Pricing</a>
@@ -143,7 +134,7 @@
 							<svg width="24" height="24">
 								<use xlink:href="assets/images/icons.svg#arrow-bottom"></use>
 							</svg>
-							<img class="header__lang-flag" src="assets/images/en.png" alt="en"/>
+							<img class="header__lang-flag" src="assets/images/en.png" alt="en" />
 						</button>
 						<ul class="header__lang-list">
 							<li class="header__lang-lsit-item">
@@ -172,8 +163,8 @@
 		<aside class="account__sidebar">
 			<div class="user">
 				<picture>
-					<source srcset="assets/images/user-img-m.png" media="(max-width: 768px)"/>
-					<img class="user__img" src="assets/images/user-img.png" alt="user-img"/>
+					<source srcset="assets/images/user-img-m.png" media="(max-width: 768px)" />
+					<img class="user__img" src="assets/images/user-img.png" alt="user-img" />
 				</picture>
 				<div class="box user__block">
 					<div class="user__info">
@@ -250,28 +241,17 @@
 
 				<div class="tabs-panel" data-tabs-panel="main">
 					<div class="my-person__top">
-						<img class="my-person__img" src="assets/images/my-person-img.png" alt=""/>
+						<img class="my-person__img" src="assets/images/my-person-img.png" alt="" />
 						<div class="my-person__wrapper">
 							<h4 class="my-person__primary-title">
 								<span class="circle"></span><span>Your Archetype
 					<span class="my-person__title-khaki">Sage</span></span>
 							</h4>
 							<p class="my-person__percent p-20">With 57% presision</p>
-							<p class="my-person__main-text">
-								Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget
-								dolor.
-								Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur
-								ridiculus
-								mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla
-								consequat
-								massa
-								quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim
-								justo,
-								rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis
-								pretium.
-								Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate
-								eleifend
-								tellus.
+							<p class="my-person__main-text ls">
+								Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis,
+								sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer
+								tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus.
 							</p>
 							<div class="my-person__wrapper-bottom">
 								<p class="my-person__bottom-text ls p-20">
@@ -285,7 +265,7 @@
 				</div>
 				<div class="tabs-panel" data-tabs-panel="supporting">
 					<div class="my-person__top">
-						<img class="my-person__img" src="assets/images/my-person-img.png" alt=""/>
+						<img class="my-person__img" src="assets/images/my-person-img.png" alt="" />
 						<div class="my-person__wrapper">
 							<h4 class="my-person__primary-title">
 								<span class="circle"></span><span>Your Supporting
@@ -293,9 +273,7 @@
 							</h4>
 							<p class="my-person__percent p-20">With 42% presision</p>
 							<p class="my-person__main-text">
-								The Creator adds imagination and flexibility to your main archetype. This side helps
-								you notice new combinations, refresh familiar looks, and express your personality
-								through details. It works best when you allow yourself to experiment without losing
+								The Creator adds imagination and flexibility to your main archetype. This side helps you notice new combinations, refresh familiar looks, and express your personality through details. It works best when you allow yourself to experiment without losing
 								the clean structure that makes your style feel confident.
 							</p>
 							<div class="my-person__wrapper-bottom">
@@ -310,7 +288,7 @@
 				</div>
 				<div class="tabs-panel" data-tabs-panel="shadow">
 					<div class="my-person__top">
-						<img class="my-person__img" src="assets/images/my-person-img.png" alt=""/>
+						<img class="my-person__img" src="assets/images/my-person-img.png" alt="" />
 						<div class="my-person__wrapper">
 							<h4 class="my-person__primary-title">
 								<span class="circle"></span><span>Shadow Archetype
@@ -318,10 +296,8 @@
 							</h4>
 							<p class="my-person__percent p-20">With 31% presision</p>
 							<p class="my-person__main-text">
-								The Ruler appears as your shadow when control, perfection, or the need to look
-								composed becomes too strong. In style, this may show as choosing only safe pieces or
-								avoiding softness. Balancing this side means keeping authority in your look while
-								adding ease, movement, and a more personal touch.
+								The Ruler appears as your shadow when control, perfection, or the need to look composed becomes too strong. In style, this may show as choosing only safe pieces or avoiding softness. Balancing this side means keeping authority in your look while adding
+								ease, movement, and a more personal touch.
 							</p>
 							<div class="my-person__wrapper-bottom">
 								<p class="my-person__bottom-text ls p-20">
@@ -335,7 +311,7 @@
 				</div>
 				<div class="tabs-panel" data-tabs-panel="sleeping">
 					<div class="my-person__top">
-						<img class="my-person__img" src="assets/images/my-person-img.png" alt=""/>
+						<img class="my-person__img" src="assets/images/my-person-img.png" alt="" />
 						<div class="my-person__wrapper">
 							<h4 class="my-person__primary-title">
 								<span class="circle"></span>
@@ -343,9 +319,7 @@
 							</h4>
 							<p class="my-person__percent p-20">With 24% presision</p>
 							<p class="my-person__main-text">
-								The Explorer is a quiet potential in your style. It can bring more freedom, comfort,
-								and curiosity into your wardrobe when you are ready for change. This archetype may
-								appear through travel-inspired pieces, relaxed shapes, practical layers, or colors
+								The Explorer is a quiet potential in your style. It can bring more freedom, comfort, and curiosity into your wardrobe when you are ready for change. This archetype may appear through travel-inspired pieces, relaxed shapes, practical layers, or colors
 								that feel more open and natural.
 							</p>
 							<div class="my-person__wrapper-bottom">
@@ -373,36 +347,22 @@
 						</h4>
 						<ul class="my-person__list">
 							<li class="my-person__item">
-								<span>Visionary and strategy:</span>
-								Has the ability
-								to see a holistic picture (vision), to think strategically
-								and predict results.
+								<span>Visionary and strategy:</span> Has the ability to see a holistic picture (vision), to think strategically and predict results.
 							</li>
 							<li class="my-person__item">
-								<span>Transformation:</span>
-								Knows how to transform negative
-								situations into positive ones, to change people's minds,
-								to find non-trivial ways out of dead ends.
+								<span>Transformation:</span> Knows how to transform negative situations into positive ones, to change people's minds, to find non-trivial ways out of dead ends.
 
 							</li>
 							<li class="my-person__item">
-								<span>Influence and Effectiveness:</span>
-								Uses their personal
-								power ("might") to create change by acting
-								consciously.
+								<span>Influence and Effectiveness:</span> Uses their personal power ("might") to create change by acting consciously.
 
 							</li>
 							<li class="my-person__item">
-								<span>Charisma and wisdom: </span>
-								The Magician is often perceived as
-								an expert, a mysterious and attractive personality. He
-								has intuition and the ability to "read" people.
+								<span>Charisma and wisdom: </span> The Magician is often perceived as an expert, a mysterious and attractive personality. He has intuition and the ability to "read" people.
 
 							</li>
 							<li class="my-person__item">
-								<span>	Integrity: </span>
-								Seeks to integrate the spiritual and
-								the material, the inner and the outer.
+								<span>	Integrity: </span> Seeks to integrate the spiritual and the material, the inner and the outer.
 							</li>
 						</ul>
 					</div>
@@ -413,29 +373,19 @@
 						</h4>
 						<ul class="my-person__list">
 							<li class="my-person__item">
-								<span>Manipulation: </span>
-								Like a "skilled puppeteer," the Magician in the shadows pulls the right strings, using
-								people and their weaknesses to their advantage.
+								<span>Manipulation: </span> Like a "skilled puppeteer," the Magician in the shadows pulls the right strings, using people and their weaknesses to their advantage.
 							</li>
 							<li class="my-person__item">
-								<span>Evil Sorcerer/Manipulator: </span>
-								Turns good into bad, acts behind the scenes, intrigues, and destroys what others have
-								created.
+								<span>Evil Sorcerer/Manipulator: </span> Turns good into bad, acts behind the scenes, intrigues, and destroys what others have created.
 							</li>
 							<li class="my-person__item">
-								<span>Cynicism and detachment:</span>
-								You may become cold, detached, and arrogant, looking down on people.
+								<span>Cynicism and detachment:</span> You may become cold, detached, and arrogant, looking down on people.
 							</li>
 							<li class="my-person__item">
-								<span>Obsession with power:</span>
-								Using knowledge to
-								control others rather than to develop them.
+								<span>Obsession with power:</span> Using knowledge to control others rather than to develop them.
 							</li>
 							<li class="my-person__item">
-								<span>Enjoying the failures of others: </span>
-								A Shadow Mage can
-								feed off of other people's failures to make themselves look
-								more successful.
+								<span>Enjoying the failures of others: </span> A Shadow Mage can feed off of other people's failures to make themselves look more successful.
 							</li>
 						</ul>
 
@@ -451,36 +401,22 @@
 						</h4>
 						<ul class="my-person__list">
 							<li class="my-person__item">
-								<span>Visionary and strategy:</span>
-								Has the ability
-								to see a holistic picture (vision), to think strategically
-								and predict results.
+								<span>Visionary and strategy:</span> Has the ability to see a holistic picture (vision), to think strategically and predict results.
 							</li>
 							<li class="my-person__item">
-								<span>Transformation:</span>
-								Knows how to transform negative
-								situations into positive ones, to change people's minds,
-								to find non-trivial ways out of dead ends.
+								<span>Transformation:</span> Knows how to transform negative situations into positive ones, to change people's minds, to find non-trivial ways out of dead ends.
 
 							</li>
 							<li class="my-person__item">
-								<span>Influence and Effectiveness:</span>
-								Uses their personal
-								power ("might") to create change by acting
-								consciously.
+								<span>Influence and Effectiveness:</span> Uses their personal power ("might") to create change by acting consciously.
 
 							</li>
 							<li class="my-person__item">
-								<span>Charisma and wisdom: </span>
-								The Magician is often perceived as
-								an expert, a mysterious and attractive personality. He
-								has intuition and the ability to "read" people.
+								<span>Charisma and wisdom: </span> The Magician is often perceived as an expert, a mysterious and attractive personality. He has intuition and the ability to "read" people.
 
 							</li>
 							<li class="my-person__item">
-								<span>	Integrity: </span>
-								Seeks to integrate the spiritual and
-								the material, the inner and the outer.
+								<span>	Integrity: </span> Seeks to integrate the spiritual and the material, the inner and the outer.
 							</li>
 						</ul>
 					</div>
@@ -491,29 +427,19 @@
 						</h4>
 						<ul class="my-person__list">
 							<li class="my-person__item">
-								<span>Manipulation: </span>
-								Like a "skilled puppeteer," the Magician in the shadows pulls the right strings, using
-								people and their weaknesses to their advantage.
+								<span>Manipulation: </span> Like a "skilled puppeteer," the Magician in the shadows pulls the right strings, using people and their weaknesses to their advantage.
 							</li>
 							<li class="my-person__item">
-								<span>Evil Sorcerer/Manipulator: </span>
-								Turns good into bad, acts behind the scenes, intrigues, and destroys what others have
-								created.
+								<span>Evil Sorcerer/Manipulator: </span> Turns good into bad, acts behind the scenes, intrigues, and destroys what others have created.
 							</li>
 							<li class="my-person__item">
-								<span>Cynicism and detachment:</span>
-								You may become cold, detached, and arrogant, looking down on people.
+								<span>Cynicism and detachment:</span> You may become cold, detached, and arrogant, looking down on people.
 							</li>
 							<li class="my-person__item">
-								<span>Obsession with power:</span>
-								Using knowledge to
-								control others rather than to develop them.
+								<span>Obsession with power:</span> Using knowledge to control others rather than to develop them.
 							</li>
 							<li class="my-person__item">
-								<span>Enjoying the failures of others: </span>
-								A Shadow Mage can
-								feed off of other people's failures to make themselves look
-								more successful.
+								<span>Enjoying the failures of others: </span> A Shadow Mage can feed off of other people's failures to make themselves look more successful.
 							</li>
 						</ul>
 
@@ -529,36 +455,22 @@
 						</h4>
 						<ul class="my-person__list">
 							<li class="my-person__item">
-								<span>Visionary and strategy:</span>
-								Has the ability
-								to see a holistic picture (vision), to think strategically
-								and predict results.
+								<span>Visionary and strategy:</span> Has the ability to see a holistic picture (vision), to think strategically and predict results.
 							</li>
 							<li class="my-person__item">
-								<span>Transformation:</span>
-								Knows how to transform negative
-								situations into positive ones, to change people's minds,
-								to find non-trivial ways out of dead ends.
+								<span>Transformation:</span> Knows how to transform negative situations into positive ones, to change people's minds, to find non-trivial ways out of dead ends.
 
 							</li>
 							<li class="my-person__item">
-								<span>Influence and Effectiveness:</span>
-								Uses their personal
-								power ("might") to create change by acting
-								consciously.
+								<span>Influence and Effectiveness:</span> Uses their personal power ("might") to create change by acting consciously.
 
 							</li>
 							<li class="my-person__item">
-								<span>Charisma and wisdom: </span>
-								The Magician is often perceived as
-								an expert, a mysterious and attractive personality. He
-								has intuition and the ability to "read" people.
+								<span>Charisma and wisdom: </span> The Magician is often perceived as an expert, a mysterious and attractive personality. He has intuition and the ability to "read" people.
 
 							</li>
 							<li class="my-person__item">
-								<span>	Integrity: </span>
-								Seeks to integrate the spiritual and
-								the material, the inner and the outer.
+								<span>	Integrity: </span> Seeks to integrate the spiritual and the material, the inner and the outer.
 							</li>
 						</ul>
 					</div>
@@ -569,29 +481,19 @@
 						</h4>
 						<ul class="my-person__list">
 							<li class="my-person__item">
-								<span>Manipulation: </span>
-								Like a "skilled puppeteer," the Magician in the shadows pulls the right strings, using
-								people and their weaknesses to their advantage.
+								<span>Manipulation: </span> Like a "skilled puppeteer," the Magician in the shadows pulls the right strings, using people and their weaknesses to their advantage.
 							</li>
 							<li class="my-person__item">
-								<span>Evil Sorcerer/Manipulator: </span>
-								Turns good into bad, acts behind the scenes, intrigues, and destroys what others have
-								created.
+								<span>Evil Sorcerer/Manipulator: </span> Turns good into bad, acts behind the scenes, intrigues, and destroys what others have created.
 							</li>
 							<li class="my-person__item">
-								<span>Cynicism and detachment:</span>
-								You may become cold, detached, and arrogant, looking down on people.
+								<span>Cynicism and detachment:</span> You may become cold, detached, and arrogant, looking down on people.
 							</li>
 							<li class="my-person__item">
-								<span>Obsession with power:</span>
-								Using knowledge to
-								control others rather than to develop them.
+								<span>Obsession with power:</span> Using knowledge to control others rather than to develop them.
 							</li>
 							<li class="my-person__item">
-								<span>Enjoying the failures of others: </span>
-								A Shadow Mage can
-								feed off of other people's failures to make themselves look
-								more successful.
+								<span>Enjoying the failures of others: </span> A Shadow Mage can feed off of other people's failures to make themselves look more successful.
 							</li>
 						</ul>
 
@@ -607,36 +509,22 @@
 						</h4>
 						<ul class="my-person__list">
 							<li class="my-person__item">
-								<span>Visionary and strategy:</span>
-								Has the ability
-								to see a holistic picture (vision), to think strategically
-								and predict results.
+								<span>Visionary and strategy:</span> Has the ability to see a holistic picture (vision), to think strategically and predict results.
 							</li>
 							<li class="my-person__item">
-								<span>Transformation:</span>
-								Knows how to transform negative
-								situations into positive ones, to change people's minds,
-								to find non-trivial ways out of dead ends.
+								<span>Transformation:</span> Knows how to transform negative situations into positive ones, to change people's minds, to find non-trivial ways out of dead ends.
 
 							</li>
 							<li class="my-person__item">
-								<span>Influence and Effectiveness:</span>
-								Uses their personal
-								power ("might") to create change by acting
-								consciously.
+								<span>Influence and Effectiveness:</span> Uses their personal power ("might") to create change by acting consciously.
 
 							</li>
 							<li class="my-person__item">
-								<span>Charisma and wisdom: </span>
-								The Magician is often perceived as
-								an expert, a mysterious and attractive personality. He
-								has intuition and the ability to "read" people.
+								<span>Charisma and wisdom: </span> The Magician is often perceived as an expert, a mysterious and attractive personality. He has intuition and the ability to "read" people.
 
 							</li>
 							<li class="my-person__item">
-								<span>	Integrity: </span>
-								Seeks to integrate the spiritual and
-								the material, the inner and the outer.
+								<span>	Integrity: </span> Seeks to integrate the spiritual and the material, the inner and the outer.
 							</li>
 						</ul>
 					</div>
@@ -647,29 +535,19 @@
 						</h4>
 						<ul class="my-person__list">
 							<li class="my-person__item">
-								<span>Manipulation: </span>
-								Like a "skilled puppeteer," the Magician in the shadows pulls the right strings, using
-								people and their weaknesses to their advantage.
+								<span>Manipulation: </span> Like a "skilled puppeteer," the Magician in the shadows pulls the right strings, using people and their weaknesses to their advantage.
 							</li>
 							<li class="my-person__item">
-								<span>Evil Sorcerer/Manipulator: </span>
-								Turns good into bad, acts behind the scenes, intrigues, and destroys what others have
-								created.
+								<span>Evil Sorcerer/Manipulator: </span> Turns good into bad, acts behind the scenes, intrigues, and destroys what others have created.
 							</li>
 							<li class="my-person__item">
-								<span>Cynicism and detachment:</span>
-								You may become cold, detached, and arrogant, looking down on people.
+								<span>Cynicism and detachment:</span> You may become cold, detached, and arrogant, looking down on people.
 							</li>
 							<li class="my-person__item">
-								<span>Obsession with power:</span>
-								Using knowledge to
-								control others rather than to develop them.
+								<span>Obsession with power:</span> Using knowledge to control others rather than to develop them.
 							</li>
 							<li class="my-person__item">
-								<span>Enjoying the failures of others: </span>
-								A Shadow Mage can
-								feed off of other people's failures to make themselves look
-								more successful.
+								<span>Enjoying the failures of others: </span> A Shadow Mage can feed off of other people's failures to make themselves look more successful.
 							</li>
 						</ul>
 
@@ -706,4 +584,5 @@
 <script src="assets/scripts/main.js"></script>
 <script src="assets/scripts/pages/my-person.js"></script>
 </body>
+
 </html>

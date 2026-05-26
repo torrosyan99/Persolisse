@@ -1,23 +1,22 @@
 <!doctype html>
 <html lang="en">
+
 <head>
 	<meta charset="UTF-8">
-	<meta name="viewport"
-	      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<title>Document</title>
 
-	<link rel="stylesheet" type="text/css" href="assets/styles/fonts.css"/>
-	<link rel="stylesheet" type="text/css" href="assets/styles/reset.css"/>
-	<link rel="stylesheet" type="text/css" href="assets/styles/main.css"/>
+	<link rel="stylesheet" type="text/css" href="assets/styles/fonts.css" />
+	<link rel="stylesheet" type="text/css" href="assets/styles/reset.css" />
+	<link rel="stylesheet" type="text/css" href="assets/styles/main.css" />
 </head>
+
 <body>
 
 
 <div class="overlay">
-	<div class="modal register"
-	     role="dialog"
-	     data-modal-type="register">
+	<div class="modal register" role="dialog" data-modal-type="register">
 		<button class="modal__close" type="button" aria-label="Close modal">
 			<svg width="18" height="18">
 				<use xlink:href="assets/images/icons.svg#cancel"></use>
@@ -26,14 +25,13 @@
 		<h2 class="title title--center">Let's creat account for your Persolisse</h2>
 		<form class="modal-form register__form">
 			<div class="modal-form__item">
-				<input class="input" type="text" name="username" placeholder="Your name"/>
+				<input class="input" type="text" name="username" placeholder="Your name" />
 			</div>
 			<div class="modal-form__item">
-				<input class="input" type="text" name="email" placeholder="Your email"/>
+				<input class="input" type="text" name="email" placeholder="Your email" />
 			</div>
 			<div class="modal-form__item">
-				<input class="input" type="password" name="password" placeholder="Your password"
-				       autocomplete="new-password"/>
+				<input class="input" type="password" name="password" placeholder="Your password" autocomplete="new-password" />
 			</div>
 			<button type="submit" class="button modal-form__button">
 				SIGN UP
@@ -45,9 +43,7 @@
 		<button class="register__login button button--ghost" type="button">LOG IN</button>
 		<button class="button button--ghost" type="button">Continue as GUEST</button>
 	</div>
-	<div class="modal login"
-	     role="dialog"
-	     data-modal-type="login">
+	<div class="modal login" role="dialog" data-modal-type="login">
 		<button class="modal__close" type="button" aria-label="Close modal">
 			<svg width="18" height="18">
 				<use xlink:href="assets/images/icons.svg#cancel"></use>
@@ -56,11 +52,10 @@
 		<h2 class="title title--center">LOG IN</h2>
 		<form class="modal-form login__form">
 			<div class="modal-form__item">
-				<input class="input" type="text" name="email" placeholder="Your email"/>
+				<input class="input" type="text" name="email" placeholder="Your email" />
 			</div>
 			<div class="modal-form__item">
-				<input class="input" type="password" name="password" placeholder="Your password"
-				       autocomplete="current-password"/>
+				<input class="input" type="password" name="password" placeholder="Your password" autocomplete="current-password" />
 			</div>
 			<p class="modal-form__error error-text">
 				The password is incorrect! <span> Restore it?</span>
@@ -69,45 +64,6 @@
 				LOG IN
 			</button>
 		</form>
-	</div>
-	<div class="modal questions" role="dialog"
-	     data-modal-type="questions">
-		<div class="questions__top">
-			<p class="p-24 questions__top-text">
-				Next questions of the testing - for Better know my self
-			</p>
-			<p class="quiz__passed-text questions__passed-text"></p>
-			<button class="modal__close questions__modal-close" type="button" aria-label="Close modal">
-				<svg width="18" height="18">
-					<use xlink:href="assets/images/icons.svg#cancel"></use>
-				</svg>
-			</button>
-		</div>
-		<div class="questions__content">
-			<picture class="questions__picture">
-				<source srcset="assets/images/questions-img-m.png" media="(max-width: 480px)"/>
-				<img class="questions__img" src="assets/images/questions-img.png" alt=""/>
-			</picture>
-			<div class="questions__wrapper">
-				<div class="questions__quiz-content">
-					<h3 class="quiz__title questions__quiz-title"></h3>
-					<form class="quiz__answers questions__answers"></form>
-				</div>
-				<div class="questions__bottom">
-					<button class="button button--ghost button--small quiz__back">
-						Back
-					</button>
-					<div class="questions__bottom-right">
-						<button class="button button--ghost button--small questions__save-stop modal__close">
-							Save & Stop
-						</button>
-						<p class="questions__bottom-text">
-							You can continue later
-						</p>
-					</div>
-				</div>
-			</div>
-		</div>
 	</div>
 </div>
 
@@ -129,10 +85,7 @@
 				<a class="logo header__logo" href="/" aria-label="Persolisse home">Persolisse</a>
 				<div class="header__right">
 					<nav class="header__actions">
-						<button class="modal-button header__login-button"
-						        aria-label="Open modal"
-						        type="button"
-						        data-type='register'>
+						<button class="modal-button header__login-button" aria-label="Open modal" type="button" data-type='register'>
 							Login
 						</button>
 						<a class="header__link" href="pricing.html">Pricing</a>
@@ -143,7 +96,7 @@
 							<svg width="24" height="24">
 								<use xlink:href="assets/images/icons.svg#arrow-bottom"></use>
 							</svg>
-							<img class="header__lang-flag" src="assets/images/en.png" alt="en"/>
+							<img class="header__lang-flag" src="assets/images/en.png" alt="en" />
 						</button>
 						<ul class="header__lang-list">
 							<li class="header__lang-lsit-item">
@@ -172,8 +125,8 @@
 		<aside class="account__sidebar">
 			<div class="user user--h-fixed">
 				<picture>
-					<source srcset="assets/images/user-img-m.png" media="(max-width: 768px)"/>
-					<img class="user__img" src="assets/images/user-img.png" alt="user-img"/>
+					<source srcset="assets/images/user-img-m.png" media="(max-width: 768px)" />
+					<img class="user__img" src="assets/images/user-img.png" alt="user-img" />
 				</picture>
 				<div class="box user__block">
 					<div class="user__info">
@@ -235,8 +188,8 @@
 				<svg width="6" height="12">
 					<use xlink:href="assets/images/icons.svg#arrow-right"></use>
 				</svg>
-				<div class="thumbnails__item"> Season and
-					Location</div>
+				<div class="thumbnails__item"> Season and Location
+				</div>
 				<svg width="6" height="12">
 					<use xlink:href="assets/images/icons.svg#arrow-right"></use>
 				</svg>
@@ -256,9 +209,7 @@
 						Photo of new apparel:
 					</p>
 					<div class="image-box">
-						<img class=" preview"
-						     data-preview-img="check-online"
-						      />
+						<img class=" preview" data-preview-img="check-online" />
 						<p class="image-box__text">
 							New clothing to check
 						</p>
@@ -266,9 +217,9 @@
 					<label class="button button--ghost check-online__button">
 						Upload
 						<svg width="24" height="24">
-						<use xlink:href="assets/images/icons.svg#download"></use>
+							<use xlink:href="assets/images/icons.svg#download"></use>
 						</svg>
-						<input class="check-online__file upload" data-upload="check-online" type="file"    accept="image/*"/>
+						<input class="check-online__file upload" data-upload="check-online" type="file" accept="image/*" />
 					</label>
 					<button class="button">
 						Check it
@@ -315,4 +266,5 @@
 
 <script src="assets/scripts/main.js"></script>
 </body>
+
 </html>

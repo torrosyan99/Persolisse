@@ -1,23 +1,22 @@
 <!doctype html>
 <html lang="en">
+
 <head>
 	<meta charset="UTF-8">
-	<meta name="viewport"
-	      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<title>Document</title>
 
-	<link rel="stylesheet" type="text/css" href="assets/styles/fonts.css"/>
-	<link rel="stylesheet" type="text/css" href="assets/styles/reset.css"/>
-	<link rel="stylesheet" type="text/css" href="assets/styles/main.css"/>
+	<link rel="stylesheet" type="text/css" href="assets/styles/fonts.css" />
+	<link rel="stylesheet" type="text/css" href="assets/styles/reset.css" />
+	<link rel="stylesheet" type="text/css" href="assets/styles/main.css" />
 </head>
+
 <body>
 
 
 <div class="overlay">
-	<div class="modal register"
-	     role="dialog"
-	     data-modal-type="register">
+	<div class="modal register" role="dialog" data-modal-type="register">
 		<button class="modal__close" type="button" aria-label="Close modal">
 			<svg width="18" height="18">
 				<use xlink:href="assets/images/icons.svg#cancel"></use>
@@ -26,14 +25,13 @@
 		<h2 class="title title--center">Let's creat account for your Persolisse</h2>
 		<form class="modal-form register__form">
 			<div class="modal-form__item">
-				<input class="input" type="text" name="username" placeholder="Your name"/>
+				<input class="input" type="text" name="username" placeholder="Your name" />
 			</div>
 			<div class="modal-form__item">
-				<input class="input" type="text" name="email" placeholder="Your email"/>
+				<input class="input" type="text" name="email" placeholder="Your email" />
 			</div>
 			<div class="modal-form__item">
-				<input class="input" type="password" name="password" placeholder="Your password"
-				       autocomplete="new-password"/>
+				<input class="input" type="password" name="password" placeholder="Your password" autocomplete="new-password" />
 			</div>
 			<button type="submit" class="button modal-form__button">
 				SIGN UP
@@ -45,9 +43,7 @@
 		<button class="register__login button button--ghost" type="button">LOG IN</button>
 		<button class="button button--ghost" type="button">Continue as GUEST</button>
 	</div>
-	<div class="modal login"
-	     role="dialog"
-	     data-modal-type="login">
+	<div class="modal login" role="dialog" data-modal-type="login">
 		<button class="modal__close" type="button" aria-label="Close modal">
 			<svg width="18" height="18">
 				<use xlink:href="assets/images/icons.svg#cancel"></use>
@@ -56,11 +52,10 @@
 		<h2 class="title title--center">LOG IN</h2>
 		<form class="modal-form login__form">
 			<div class="modal-form__item">
-				<input class="input" type="text" name="email" placeholder="Your email"/>
+				<input class="input" type="text" name="email" placeholder="Your email" />
 			</div>
 			<div class="modal-form__item">
-				<input class="input" type="password" name="password" placeholder="Your password"
-				       autocomplete="current-password"/>
+				<input class="input" type="password" name="password" placeholder="Your password" autocomplete="current-password" />
 			</div>
 			<p class="modal-form__error error-text">
 				The password is incorrect! <span> Restore it?</span>
@@ -86,7 +81,7 @@
 			</button>
 		</div>
 		<div class="generate-image__content">
-			<img class="generate-image__img" src="assets/images/generate-img.png" alt=""/>
+			<img class="generate-image__img" src="assets/images/generate-img.png" alt="" />
 			<div class="generate-image__wrapper">
 				<h3 class="generate-image__title">
 					"Sunshine Rusberry"
@@ -99,7 +94,7 @@
 				</p>
 			</div>
 			<div class="generate-image__buttons">
-				<a  class="button" href="my-wardrobe.html">Save to Wardrobe</a>
+				<a class="button" href="my-wardrobe.html">Save to Wardrobe</a>
 				<button class="button button--ghost generate-image__new-button"> Generate new</button>
 			</div>
 		</div>
@@ -124,10 +119,7 @@
 				<a class="logo header__logo" href="/" aria-label="Persolisse home">Persolisse</a>
 				<div class="header__right">
 					<nav class="header__actions">
-						<button class="modal-button header__login-button"
-						        aria-label="Open modal"
-						        type="button"
-						        data-type='register'>
+						<button class="modal-button header__login-button" aria-label="Open modal" type="button" data-type='register'>
 							Login
 						</button>
 						<a class="header__link" href="pricing.html">Pricing</a>
@@ -138,7 +130,7 @@
 							<svg width="24" height="24">
 								<use xlink:href="assets/images/icons.svg#arrow-bottom"></use>
 							</svg>
-							<img class="header__lang-flag" src="assets/images/en.png" alt="en"/>
+							<img class="header__lang-flag" src="assets/images/en.png" alt="en" />
 						</button>
 						<ul class="header__lang-list">
 							<li class="header__lang-lsit-item">
@@ -167,8 +159,8 @@
 		<aside class="account__sidebar">
 			<div class="user">
 				<picture>
-					<source srcset="assets/images/user-img-m.png" media="(max-width: 768px)"/>
-					<img class="user__img" src="assets/images/user-img.png" alt="user-img"/>
+					<source srcset="assets/images/user-img-m.png" media="(max-width: 768px)" />
+					<img class="user__img" src="assets/images/user-img.png" alt="user-img" />
 				</picture>
 				<div class="box user__block">
 					<div class="user__info">
@@ -226,12 +218,12 @@
 		<div class="account__right">
 			<h2 class="account__title">My basic style</h2>
 			<div class="tabs account__tabs">
-				<a class="tabs__item" href="basic-style.html">
+				<a class="tabs__item tabs__item--active" href="basic-style.html">
 					Basic style
 				</a>
 			</div>
 			<div class="basic-style__top">
-				<img class="basic-style__img" src="assets/images/basic-style-img.png" alt=""/>
+				<img class="basic-style__img" src="assets/images/basic-style-img.png" alt="" />
 				<div class="basic-style__wrapper">
 					<div class="basic-style__flex">
 						<ul class="basic-style__list">
@@ -249,20 +241,14 @@
 							</li>
 						</ul>
 						<p class="basic-style__flex-text">
-							The accuracy of your personal, unique style depends on all of your physical
-							features—face shape, eye/skin/hair color, body shape, and height. By determining these
-							features, we can create your ideal, unique style.
+							The accuracy of your personal, unique style depends on all of your physical features—face shape, eye/skin/hair color, body shape, and height. By determining these features, we can create your ideal, unique style.
 						</p>
 					</div>
 					<h3 class="basic-style__title">My Style base</h3>
 					<p class="basic-style__text ls">
-						Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
-						Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur
-						ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla
-						consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget,
-						arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu
-						pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean
-						vulputate eleifend tellus.
+						Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis,
+						sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt.
+						Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus.
 					</p>
 					<button class="button modal-button" data-type="generate-image">
 						Generate next
@@ -469,4 +455,5 @@
 
 <script src="assets/scripts/main.js"></script>
 </body>
+
 </html>
