@@ -19,7 +19,7 @@ html {
 }
 
 body {
-    min-height: -webkit-fill-available;
+    min-height: 100dvh;
     display: flex;
     flex-direction: column;
     font-family: "Inter", sans-serif;
@@ -417,7 +417,7 @@ h5 {
 
 .overlay {
     position: fixed;
-    height: -webkit-fill-available;
+    height: 100dvh;
     backdrop-filter: blur(9px);
     inset: 0;
     background: rgb(10 10 10 / .44);
@@ -1900,7 +1900,7 @@ h5 {
     }
 
     .account__overlay {
-        height: -webkit-fill-available;
+        height: 100dvg;
         backdrop-filter: blur(9px);
         inset: 0;
         z-index: 2;
@@ -2078,8 +2078,8 @@ h5 {
     }
 
     .header__overlay {
-        height: -webkit-fill-available;
-        position: absolute;
+        height: 100dvh;
+        position: fixed;
         z-index: 12;
         inset: 0;
         backdrop-filter: blur(9px);
