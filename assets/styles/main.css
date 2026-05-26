@@ -733,10 +733,9 @@ h5 {
 }
 
 .account {
-    padding-top: 45px;
+    padding: 46px 0 66px;
     flex-grow: 1;
     overflow: hidden;
-
 }
 
 .account__banner {
@@ -767,13 +766,12 @@ h5 {
 }
 
 .account__right {
-    overflow: hidden;
-    padding-bottom: 66px;
     padding-top: 34px;
 }
 
 .account__tabs,
 .account__thumbnails {
+    max-width: calc(100dvw - 398px);
     margin: 78px 0 20px;
     padding-bottom: 24.5px;
     border-bottom: 1px solid var(--warm-divider);
@@ -859,7 +857,6 @@ h5 {
 
 .tabs,
 .thumbnails {
-    max-width: 100%;
     margin-bottom: 32px;
     overflow-x: auto;
     gap: 32px;
@@ -1700,6 +1697,7 @@ h5 {
 .preview--active {
     display: block;
 }
+
 .profile__content {
     display: flex;
     gap: 20px;
@@ -1736,6 +1734,7 @@ h5 {
     max-width: 262px;
     margin-left: 70px;
 }
+
 .profile__inputs-wrapper .profile__button {
     justify-content: start;
 }
@@ -1753,7 +1752,7 @@ h5 {
 }
 
 .profile__input-item--active {
-    --edit-color:var(--warm-khaki);
+    --edit-color: var(--warm-khaki);
 }
 
 
@@ -1763,7 +1762,8 @@ h5 {
     overflow: hidden;
     text-overflow: ellipsis;
 }
-.profile-info{
+
+.profile-info {
     max-width: 870px;
     width: 100%;
     padding: 20px;
@@ -1774,8 +1774,8 @@ h5 {
     align-items: center;
     justify-content: space-between;
     padding: 20px 0;
-    border-top: var(--warm-divider) 1px solid   ;
-    border-bottom: var(--warm-divider) 1px solid   ;
+    border-top: var(--warm-divider) 1px solid;
+    border-bottom: var(--warm-divider) 1px solid;
     margin-bottom: 32px;
 }
 
@@ -1786,6 +1786,7 @@ h5 {
 .profile-info__text {
     line-height: 1.4;
 }
+
 .footer__content {
     padding: 48px 0 40px;
     border-top: 1px solid var(--warm-sand);
@@ -1920,7 +1921,11 @@ h5 {
 
     .body-account-overflow {
         overflow: hidden;
+    }
 
+    .account__tabs,
+    .account__thumbnails {
+        max-width: 100%;
     }
 
     .account__content {
@@ -2384,7 +2389,7 @@ h5 {
     }
 
     .account {
-        padding-top: 32px;
+       padding: 32px 0 36px;
     }
 
 
@@ -2399,10 +2404,10 @@ h5 {
 
     .account__right {
         padding-top: 0;
-        padding-bottom: 36px;
     }
 
-    .account__tabs, .account__thumbnails {
+    .account__tabs,
+    .account__thumbnails {
         margin: 32px 0 20px;
         padding-bottom: 10px;
     }
@@ -2814,6 +2819,7 @@ h5 {
     .check-online__textarea-item {
         order: 1;
     }
+
     .check-online__item,
     .check-online__result,
     .check-online__textarea-item {
