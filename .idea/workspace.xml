@@ -8,10 +8,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="96c9ea78-550d-4780-afab-5b6632b773f8" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/Atellier-my.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parsolisse.zip" beforeDir="false" afterPath="$PROJECT_DIR$/parsolisse.zip" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,23 +40,23 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.5905900593235933" />
-      <entry key="MS500" value="4.214780047032118" />
-      <entry key="S2" value="8.512598770860656" />
-      <entry key="S5" value="13.986097894673875" />
-      <entry key="S10" value="18.396921897196922" />
-      <entry key="S30" value="22.97759399651461" />
-      <entry key="S60" value="24.434120891226254" />
-      <entry key="M2" value="25.40142424498841" />
-      <entry key="M5" value="27.54579875586233" />
-      <entry key="M10" value="31.10621875494085" />
-      <entry key="M15" value="33.57831018651905" />
-      <entry key="M30" value="37.31134229456194" />
-      <entry key="H1" value="39.85461854102227" />
-      <entry key="H2" value="41.34350914932451" />
-      <entry key="H4" value="42.14962984824252" />
-      <entry key="D1" value="42.85509360405021" />
-      <entry key="W1" value="42.979219847198344" />
+      <entry key="MS100" value="1.2203297424146096" />
+      <entry key="MS500" value="3.346819788257509" />
+      <entry key="S2" value="10.659554884799284" />
+      <entry key="S5" value="18.859751017955872" />
+      <entry key="S10" value="24.146978235388378" />
+      <entry key="S30" value="29.016511052382466" />
+      <entry key="S60" value="30.456187440119248" />
+      <entry key="M2" value="31.215018650534116" />
+      <entry key="M5" value="32.036949289915185" />
+      <entry key="M10" value="35.36927471804938" />
+      <entry key="M15" value="39.762215584680014" />
+      <entry key="M30" value="50.008477635749685" />
+      <entry key="H1" value="59.702587350072314" />
+      <entry key="H2" value="66.47220386855152" />
+      <entry key="H4" value="70.48871010297904" />
+      <entry key="D1" value="74.2111141655107" />
+      <entry key="W1" value="74.88635908074542" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="0.0" />
@@ -80,23 +78,23 @@
       <entry key="W1" value="0.0" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="1.4563171353078543" />
-      <entry key="MS500" value="4.062102798600764" />
-      <entry key="S2" value="8.435712139590787" />
-      <entry key="S5" value="13.929240566117048" />
-      <entry key="S10" value="18.355888893957978" />
-      <entry key="S30" value="22.959176312419483" />
-      <entry key="S60" value="24.424125060230786" />
-      <entry key="M2" value="25.396141518160945" />
-      <entry key="M5" value="27.543315189406492" />
-      <entry key="M10" value="31.104598779700652" />
-      <entry key="M15" value="33.57704573972753" />
-      <entry key="M30" value="37.310567469821294" />
-      <entry key="H1" value="39.854181814403084" />
-      <entry key="H2" value="41.34327624895444" />
-      <entry key="H4" value="42.14950944923471" />
-      <entry key="D1" value="42.85507296040468" />
-      <entry key="W1" value="42.979216883583554" />
+      <entry key="MS100" value="1.1496355406960792" />
+      <entry key="MS500" value="3.26446452118398" />
+      <entry key="S2" value="10.603320990716178" />
+      <entry key="S5" value="18.821635139237685" />
+      <entry key="S10" value="24.122757342770573" />
+      <entry key="S30" value="29.006840655509944" />
+      <entry key="S60" value="30.451115641354477" />
+      <entry key="M2" value="31.212420304924116" />
+      <entry key="M5" value="32.03586264068459" />
+      <entry key="M10" value="35.36856100582212" />
+      <entry key="M15" value="39.76156540212874" />
+      <entry key="M30" value="50.007925327083484" />
+      <entry key="H1" value="59.70219480516856" />
+      <entry key="H2" value="66.47196523885569" />
+      <entry key="H4" value="70.48857795646867" />
+      <entry key="D1" value="74.2110901332778" />
+      <entry key="W1" value="74.88635559518409" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -108,43 +106,43 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "JavaScript Debug.basic-style.html.executor": "Run",
-    "JavaScript Debug.capsule-season.html.executor": "Run",
-    "JavaScript Debug.check-online.html.executor": "Run",
-    "JavaScript Debug.home2.html.executor": "Run",
-    "JavaScript Debug.image-according.html.executor": "Run",
-    "JavaScript Debug.index.html (1).executor": "Run",
-    "JavaScript Debug.index.html.executor": "Run",
-    "JavaScript Debug.my-person.html.executor": "Run",
-    "JavaScript Debug.my-stylist.html.executor": "Run",
-    "JavaScript Debug.my-wardrobe.html.executor": "Run",
-    "JavaScript Debug.pricing.html.executor": "Run",
-    "JavaScript Debug.profile.html.executor": "Run",
-    "JavaScript Debug.unique-testing.html.executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.MCP Project settings loaded": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "codeWithMe.voiceChat.enabledByDefault": "false",
-    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
-    "git-widget-placeholder": "main",
-    "javascript.preferred.runtime.type.id": "node",
-    "junie.onboarding.icon.badge.shown": "true",
-    "last_opened_file_path": "C:/Users/99tor/Dekstop/Work/Atellier-my",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "to.speed.mode.migration.done": "true",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;JavaScript Debug.basic-style.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.capsule-season.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.check-online.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.home2.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.image-according.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.index.html (1).executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.index.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.my-person.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.my-stylist.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.my-wardrobe.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.pricing.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.profile.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.unique-testing.html.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;javascript.preferred.runtime.type.id&quot;: &quot;node&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/99tor/Dekstop/Work/Atellier-my&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\99tor\Dekstop\Work\Atellier-my\assets\scripts\pages" />
@@ -200,7 +198,7 @@
       <workItem from="1779809290764" duration="5236000" />
       <workItem from="1779814907856" duration="437000" />
       <workItem from="1779815446544" duration="365000" />
-      <workItem from="1779815864326" duration="2201000" />
+      <workItem from="1779815864326" duration="2552000" />
     </task>
     <servers />
   </component>
