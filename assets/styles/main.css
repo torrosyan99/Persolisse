@@ -14,7 +14,6 @@
 
 html {
     scrollbar-gutter: stable;
-    background: var(--main-bg);
     scroll-behavior: smooth
 }
 
@@ -26,7 +25,8 @@ body {
     font-size: 18px;
     font-weight: 400;
     color: var(--primary-color);
-    background: var(--main-bg)
+    background-color: #F4EEE5 ;
+    background-image: var(--main-bg)
 }
 
 section:not(:first-of-type) {
