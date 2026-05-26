@@ -75,6 +75,14 @@ document.body.addEventListener('click', ({target}) => {
 
 overlay.addEventListener('click', closeModal);
 
+const url = new URL(window.location.href);
+const params = new URLSearchParams(url.search);
+const type = params.get('modal');
+
+if(type) openModal(type)
+
+
+
 
 // Login/Register
 
@@ -126,14 +134,16 @@ document.body.addEventListener('click', () => {
 // Quiz class
 
 class Quiz {
-  constructor(container, questions, result) {
+  constructor(container, questions, result, {
+    passedText
+  }) {
     const quiz = document.querySelector(container);
 
     this.title = quiz.querySelector('.quiz__title');
     this.answers = quiz.querySelector('.quiz__answers');
     this.back = quiz.querySelector('.quiz__back');
     if (!this.title || !this.answers || !this.back) return;
-
+    this.passedTextInner = passedText;
     this.init(quiz, questions, result);
   }
 
@@ -142,7 +152,7 @@ class Quiz {
     const steps = quiz.querySelector('.quiz__steps');
     const passedText = quiz.querySelector('.quiz__passed-text');
     const line = quiz.querySelector('.quiz__steps-line');
-    const lineActive = line.querySelector('.quiz__steps-line-active');
+    const lineActive = line?.querySelector('.quiz__steps-line-active');
     this.activeStep = 0;
 
     this.questions = questions;
@@ -179,6 +189,7 @@ class Quiz {
       this.render()
     })
     this.back.addEventListener('click', () => {
+      if(this.activeStep === 0) return
       delete this.result[this.questions[this.activeStep].question];
       this.activeStep--;
       this.setAnswers();
@@ -189,8 +200,8 @@ class Quiz {
 
 
   setPassedText() {
-    this.passedText.innerText =
-      `The test was passed by ${Math.trunc(((this.activeStep) / this.questions.length) * 100)}%`;
+    this.passedText.innerHTML =
+      `${this.passedTextInner} <span>${Math.trunc(((this.activeStep) / this.questions.length) * 100)}%</span>`;
   }
 
   setStep() {
@@ -233,7 +244,7 @@ class Quiz {
   setOk() {
     this.title.innerText = 'Congratulations! You have successfully completed the test.';
     this.answers.remove();
-    this.back.remove();
+    this.back.parentElement.remove();
     if (this.steps) this.steps.remove()
 
 
@@ -288,12 +299,11 @@ class Tabs {
 }
 
 
-const tabs = document.querySelectorAll('.tabs');
+const tabs = document.querySelectorAll('.button-tabs');
 
 
 for (let i = 0; i < tabs.length; i++) {
-  const t = new Tabs(tabs[i]);
-  console.log(t)
+ new Tabs(tabs[i]);
 }
 
 
@@ -322,3 +332,20 @@ if (userButton) {
 
 
 }
+
+// images
+
+[...document.querySelectorAll('.upload')].forEach((input) => {
+  input.addEventListener('change', (e) => {
+    const file = e.target.files[0];
+
+    if(file) {
+    const img = document.querySelector(`img[data-preview-img="${e.target.dataset.upload}"]`);
+      const imageUrl = URL.createObjectURL(file);
+
+      img.src = imageUrl;
+    }
+
+  })
+})
+

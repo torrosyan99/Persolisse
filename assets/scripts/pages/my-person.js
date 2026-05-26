@@ -109,8 +109,10 @@ const questions = [
   }
 ];
 
-new Quiz('.unique-testing__quiz', questions, (result) => {
+const d = new Quiz('.questions', questions, (result) => {
   console.log(result);
 }, {
-  passedText:'The test was passed by'
+  passedText: 'Accuracy of determination '
 });
+
+console.log(d)

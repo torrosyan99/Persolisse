@@ -5,7 +5,30 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="96c9ea78-550d-4780-afab-5b6632b773f8" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/assets/libs/swiper/swiper.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/libs/swiper/swiper.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/scripts/pages/capsule-season.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/scripts/pages/my-person.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/scripts/pages/my-wardrobe.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic-style.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/capsule-season.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/check-online.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/desired-image.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image-according.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-accessories.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-apparels-items.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-stylist.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-wardrobe.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/new-image.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/profile.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/season-location.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/icons.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/icons.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scripts/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scripts/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scripts/pages/unique-testing.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scripts/pages/unique-testing.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/styles/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/styles/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/my-person.html" beforeDir="false" afterPath="$PROJECT_DIR$/my-person.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unique-testing.html" beforeDir="false" afterPath="$PROJECT_DIR$/unique-testing.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,7 +36,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="EmbeddingIndexingInfo">
-    <option name="cachedIndexableFilesCount" value="37" />
+    <option name="cachedIndexableFilesCount" value="77" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -43,32 +66,38 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "JavaScript Debug.home2.html.executor": "Run",
-    "JavaScript Debug.index.html (1).executor": "Run",
-    "JavaScript Debug.index.html.executor": "Run",
-    "JavaScript Debug.pricing.html.executor": "Run",
-    "JavaScript Debug.unique-testing.html.executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.MCP Project settings loaded": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "codeWithMe.voiceChat.enabledByDefault": "false",
-    "git-widget-placeholder": "main",
-    "javascript.preferred.runtime.type.id": "node",
-    "last_opened_file_path": "C:/Users/99tor/Dekstop/Work/Atellier-my",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "editor.preferences.appearance",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;JavaScript Debug.basic-style.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.capsule-season.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.check-online.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.home2.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.image-according.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.index.html (1).executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.index.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.my-person.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.my-stylist.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.pricing.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.unique-testing.html.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;javascript.preferred.runtime.type.id&quot;: &quot;node&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/99tor/Dekstop/Work/Atellier-my&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;ml.llm.AcpAgentsConfigurable&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\99tor\Dekstop\Work\Atellier-my\assets\scripts\pages" />
@@ -78,29 +107,29 @@
       <recent name="C:\Users\99tor\Dekstop\Work\Atellier\assets\fonts\Montserrat" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.pricing.html">
-    <configuration name="home2.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Atellier/home2.html" useBuiltInWebServerPort="true">
+  <component name="RunManager" selected="JavaScript Debug.check-online.html">
+    <configuration name="capsule-season.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Atellier-my/capsule-season.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="index.html (1)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Atellier-my/index.html" useBuiltInWebServerPort="true">
+    <configuration name="check-online.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Atellier-my/check-online.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Atellier/index.html" useBuiltInWebServerPort="true">
+    <configuration name="image-according.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Atellier-my/image-according.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="pricing.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Atellier-my/pricing.html" useBuiltInWebServerPort="true">
+    <configuration name="my-person.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Atellier-my/my-person.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="unique-testing.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Atellier-my/unique-testing.html" useBuiltInWebServerPort="true">
+    <configuration name="my-stylist.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Atellier-my/my-stylist.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JavaScript Debug.pricing.html" />
-        <item itemvalue="JavaScript Debug.index.html (1)" />
-        <item itemvalue="JavaScript Debug.unique-testing.html" />
-        <item itemvalue="JavaScript Debug.index.html" />
-        <item itemvalue="JavaScript Debug.home2.html" />
+        <item itemvalue="JavaScript Debug.check-online.html" />
+        <item itemvalue="JavaScript Debug.my-stylist.html" />
+        <item itemvalue="JavaScript Debug.capsule-season.html" />
+        <item itemvalue="JavaScript Debug.image-according.html" />
+        <item itemvalue="JavaScript Debug.my-person.html" />
       </list>
     </recent_temporary>
   </component>
@@ -120,20 +149,31 @@
       <updated>1779277875942</updated>
       <workItem from="1779277880699" duration="569000" />
       <workItem from="1779299247901" duration="23528000" />
-      <workItem from="1779447348279" duration="72053000" />
+      <workItem from="1779447348279" duration="111979000" />
+      <workItem from="1779809290764" duration="602000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/assets/scripts/main.js</url>
-          <line>127</line>
-          <properties lambdaOrdinal="-1" />
+          <line>135</line>
           <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
