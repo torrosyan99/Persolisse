@@ -8,21 +8,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="96c9ea78-550d-4780-afab-5b6632b773f8" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/Atellier-my.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/styles/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/styles/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/basic-style.html" beforeDir="false" afterPath="$PROJECT_DIR$/basic-style.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/check-online.html" beforeDir="false" afterPath="$PROJECT_DIR$/check-online.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/desired-image.html" beforeDir="false" afterPath="$PROJECT_DIR$/desired-image.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-accessories.html" beforeDir="false" afterPath="$PROJECT_DIR$/my-accessories.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-apparels-items.html" beforeDir="false" afterPath="$PROJECT_DIR$/my-apparels-items.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-person.html" beforeDir="false" afterPath="$PROJECT_DIR$/my-person.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-stylist.html" beforeDir="false" afterPath="$PROJECT_DIR$/my-stylist.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/new-image.html" beforeDir="false" afterPath="$PROJECT_DIR$/new-image.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pricing.html" beforeDir="false" afterPath="$PROJECT_DIR$/pricing.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/profile.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/season-location.html" beforeDir="false" afterPath="$PROJECT_DIR$/season-location.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/unique-testing.html" beforeDir="false" afterPath="$PROJECT_DIR$/unique-testing.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,23 +42,23 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.125" />
-      <entry key="MS500" value="1.659753955386447" />
-      <entry key="S2" value="1.9012504626108302" />
-      <entry key="S5" value="1.9592641193252645" />
-      <entry key="S10" value="1.9794202975869273" />
-      <entry key="S30" value="1.9931089368074275" />
-      <entry key="S60" value="2.0049017701376943" />
-      <entry key="M2" value="2.2708127891486125" />
-      <entry key="M5" value="4.8395697662499995" />
-      <entry key="M10" value="8.469635480902582" />
-      <entry key="M15" value="10.547237150606096" />
-      <entry key="M30" value="13.31296454678403" />
-      <entry key="H1" value="15.02389512424226" />
-      <entry key="H2" value="15.97633041821523" />
-      <entry key="H4" value="16.47893174381095" />
-      <entry key="D1" value="16.9118439213961" />
-      <entry key="W1" value="16.987373774945247" />
+      <entry key="MS100" value="1.5905900593235933" />
+      <entry key="MS500" value="4.214780047032118" />
+      <entry key="S2" value="8.512598770860656" />
+      <entry key="S5" value="13.986097894673875" />
+      <entry key="S10" value="18.396921897196922" />
+      <entry key="S30" value="22.97759399651461" />
+      <entry key="S60" value="24.434120891226254" />
+      <entry key="M2" value="25.40142424498841" />
+      <entry key="M5" value="27.54579875586233" />
+      <entry key="M10" value="31.10621875494085" />
+      <entry key="M15" value="33.57831018651905" />
+      <entry key="M30" value="37.31134229456194" />
+      <entry key="H1" value="39.85461854102227" />
+      <entry key="H2" value="41.34350914932451" />
+      <entry key="H4" value="42.14962984824252" />
+      <entry key="D1" value="42.85509360405021" />
+      <entry key="W1" value="42.979219847198344" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="0.0" />
@@ -91,23 +80,23 @@
       <entry key="W1" value="0.0" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.5803495029175172" />
-      <entry key="MS500" value="1.5008853952610581" />
-      <entry key="S2" value="1.8576667958027535" />
-      <entry key="S5" value="1.9414825104706874" />
-      <entry key="S10" value="1.970469855138561" />
-      <entry key="S30" value="1.9901120337238414" />
-      <entry key="S60" value="2.003396597183004" />
-      <entry key="M2" value="2.269943999501911" />
-      <entry key="M5" value="4.838665795056468" />
-      <entry key="M10" value="8.468760974137044" />
-      <entry key="M15" value="10.54648909758935" />
-      <entry key="M30" value="13.312479366497078" />
-      <entry key="H1" value="15.023617872231096" />
-      <entry key="H2" value="15.976182106115356" />
-      <entry key="H4" value="16.47885502706658" />
-      <entry key="D1" value="16.911830767227872" />
-      <entry key="W1" value="16.987371886599387" />
+      <entry key="MS100" value="1.4563171353078543" />
+      <entry key="MS500" value="4.062102798600764" />
+      <entry key="S2" value="8.435712139590787" />
+      <entry key="S5" value="13.929240566117048" />
+      <entry key="S10" value="18.355888893957978" />
+      <entry key="S30" value="22.959176312419483" />
+      <entry key="S60" value="24.424125060230786" />
+      <entry key="M2" value="25.396141518160945" />
+      <entry key="M5" value="27.543315189406492" />
+      <entry key="M10" value="31.104598779700652" />
+      <entry key="M15" value="33.57704573972753" />
+      <entry key="M30" value="37.310567469821294" />
+      <entry key="H1" value="39.854181814403084" />
+      <entry key="H2" value="41.34327624895444" />
+      <entry key="H4" value="42.14950944923471" />
+      <entry key="D1" value="42.85507296040468" />
+      <entry key="W1" value="42.979216883583554" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -165,7 +154,7 @@
       <recent name="C:\Users\99tor\Dekstop\Work\Atellier\assets\fonts\Montserrat" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.index.html">
+  <component name="RunManager" selected="JavaScript Debug.my-person.html">
     <configuration name="check-online.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Atellier-my/check-online.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
@@ -183,10 +172,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.my-person.html" />
         <item itemvalue="JavaScript Debug.index.html" />
         <item itemvalue="JavaScript Debug.profile.html" />
         <item itemvalue="JavaScript Debug.my-wardrobe.html" />
-        <item itemvalue="JavaScript Debug.my-person.html" />
         <item itemvalue="JavaScript Debug.check-online.html" />
       </list>
     </recent_temporary>
@@ -211,7 +200,7 @@
       <workItem from="1779809290764" duration="5236000" />
       <workItem from="1779814907856" duration="437000" />
       <workItem from="1779815446544" duration="365000" />
-      <workItem from="1779815864326" duration="1274000" />
+      <workItem from="1779815864326" duration="2201000" />
     </task>
     <servers />
   </component>
