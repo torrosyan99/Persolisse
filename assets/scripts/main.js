@@ -342,6 +342,7 @@ if (userButton) {
     if(file) {
     const img = document.querySelector(`img[data-preview-img="${e.target.dataset.upload}"]`);
       const imageUrl = URL.createObjectURL(file);
+      img.classList.add('preview--active')
 
       img.src = imageUrl;
     }

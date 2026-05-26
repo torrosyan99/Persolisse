@@ -1646,10 +1646,9 @@ h5 {
     height: 316px;
 }
 
-.check-online__file {
+.upload {
     display: none;
 }
-
 
 .check-online__button {
     width: 100%;
@@ -1687,12 +1686,20 @@ h5 {
 
 .preview,
 .check-online__img {
+    width: 100%;
     position: absolute;
     inset: 0;
     height: 100%;
     object-fit: cover;
 }
 
+.preview {
+    display: none;
+}
+
+.preview--active {
+    display: block;
+}
 .profile__content {
     display: flex;
     gap: 20px;
@@ -1716,7 +1723,69 @@ h5 {
     font-weight: 600;
 }
 
+.profile__item .image-box {
+    height: 236px;
+    padding: 28px;
+}
 
+.profile__inputs {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 23px;
+    max-width: 262px;
+    margin-left: 70px;
+}
+.profile__inputs-wrapper .profile__button {
+    justify-content: start;
+}
+
+.profile__input-item {
+    margin-top: 20px;
+    position: relative;
+}
+
+.profile__icon {
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+}
+
+.profile__input-item--active {
+    --edit-color:var(--warm-khaki);
+}
+
+
+.profile__input {
+    padding-right: 85px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.profile-info{
+    max-width: 870px;
+    width: 100%;
+    padding: 20px;
+}
+
+.profile-info__top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0;
+    border-top: var(--warm-divider) 1px solid   ;
+    border-bottom: var(--warm-divider) 1px solid   ;
+    margin-bottom: 32px;
+}
+
+.profile-info .profile-info__close {
+    position: static;
+}
+
+.profile-info__text {
+    line-height: 1.4;
+}
 .footer__content {
     padding: 48px 0 40px;
     border-top: 1px solid var(--warm-sand);
@@ -1767,6 +1836,9 @@ h5 {
         flex-direction: column;
     }
 
+    .profile__inputs {
+        margin-left: 0;
+    }
 
 }
 
@@ -1832,6 +1904,11 @@ h5 {
     .check-online__textarea-item {
         order: -1;
         width: 100%;
+    }
+
+    .profile__content {
+        flex-wrap: wrap;
+        justify-content: center;
     }
 }
 
@@ -2746,6 +2823,32 @@ h5 {
 
     .check-online__result {
         height: 303px;
+    }
+
+    .profile__content {
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+    }
+
+    .profile__button {
+        font-size: 18px;
+        gap: 12px;
+    }
+
+    .image-box {
+        font-size: 16px;
+    }
+
+    .profile .image-box {
+        height: 318px;
+    }
+
+    .profile__item,
+    .profile__inputs {
+        max-width: 400px;
     }
 
     .footer__content {
