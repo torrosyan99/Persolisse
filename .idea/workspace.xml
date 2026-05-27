@@ -40,61 +40,61 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="6.604728307683112E-12" />
-      <entry key="MS500" value="0.006913376892984998" />
-      <entry key="S2" value="0.47616412415865367" />
-      <entry key="S5" value="1.3597727447264853" />
-      <entry key="S10" value="2.191443466865013" />
-      <entry key="S30" value="5.549323865707774" />
-      <entry key="S60" value="12.497869447211412" />
-      <entry key="M2" value="23.728457191880572" />
-      <entry key="M5" value="44.75400293724561" />
-      <entry key="M10" value="66.59324575304095" />
-      <entry key="M15" value="81.06326627774838" />
-      <entry key="M30" value="106.43429245287301" />
-      <entry key="H1" value="128.27687854031743" />
-      <entry key="H2" value="143.491266084006" />
-      <entry key="H4" value="152.61942108345292" />
-      <entry key="D1" value="161.17398003168904" />
-      <entry key="W1" value="162.7366636074525" />
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.0" />
+      <entry key="S2" value="1.0" />
+      <entry key="S5" value="1.0000004492836791" />
+      <entry key="S10" value="1.003693010337236" />
+      <entry key="S30" value="2.622492778374217" />
+      <entry key="S60" value="9.428111653199805" />
+      <entry key="M2" value="23.89664438585029" />
+      <entry key="M5" value="53.57486409941203" />
+      <entry key="M10" value="82.24585239334705" />
+      <entry key="M15" value="100.35373870023575" />
+      <entry key="M30" value="130.94804057581112" />
+      <entry key="H1" value="156.62764283623537" />
+      <entry key="H2" value="174.35242651864837" />
+      <entry key="H4" value="184.9558608599213" />
+      <entry key="D1" value="194.88202231787704" />
+      <entry key="W1" value="196.69457186012508" />
     </decayedCancelled>
     <decayedSelected>
-      <entry key="MS100" value="1.0" />
-      <entry key="MS500" value="1.0001977547543046" />
-      <entry key="S2" value="1.1185855393925568" />
-      <entry key="S5" value="1.4261992652552882" />
-      <entry key="S10" value="1.65289666487186" />
-      <entry key="S30" value="1.906046616667724" />
-      <entry key="S60" value="2.127869782841185" />
-      <entry key="M2" value="2.423970594993371" />
-      <entry key="M5" value="2.992659565642187" />
-      <entry key="M10" value="3.5955848898847718" />
-      <entry key="M15" value="3.934639801216722" />
-      <entry key="M30" value="4.388218269603368" />
-      <entry key="H1" value="4.671005481870857" />
-      <entry key="H2" value="4.829248350364695" />
-      <entry key="H4" value="4.912996362666609" />
-      <entry key="D1" value="4.985267640043448" />
-      <entry key="W1" value="4.997889626111316" />
+      <entry key="MS100" value="0.0" />
+      <entry key="MS500" value="1.8682100321212546E-120" />
+      <entry key="S2" value="1.3076880552221968E-30" />
+      <entry key="S5" value="1.5181482763426674E-12" />
+      <entry key="S10" value="1.7053467371459235E-6" />
+      <entry key="S30" value="0.01925998073993733" />
+      <entry key="S60" value="0.21389774818518154" />
+      <entry key="M2" value="0.7685248763696813" />
+      <entry key="M5" value="1.8902077909695691" />
+      <entry key="M10" value="2.857562008025231" />
+      <entry key="M15" value="3.375895995788946" />
+      <entry key="M30" value="4.064716496360662" />
+      <entry key="H1" value="4.495535136418756" />
+      <entry key="H2" value="4.737672650464221" />
+      <entry key="H4" value="4.866191518713705" />
+      <entry key="D1" value="4.977320476306423" />
+      <entry key="W1" value="4.996750664191903" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.007289320246420135" />
-      <entry key="MS500" value="0.37600378724970135" />
-      <entry key="S2" value="1.1750866229251777" />
-      <entry key="S5" value="2.384615828805798" />
-      <entry key="S10" value="3.5390875721705544" />
-      <entry key="S30" value="7.311985830651208" />
-      <entry key="S60" value="14.536399624957802" />
-      <entry key="M2" value="26.090536219473364" />
-      <entry key="M5" value="47.70907821881325" />
-      <entry key="M10" value="70.16493318808827" />
-      <entry key="M15" value="84.98020604455147" />
-      <entry key="M30" value="110.81242008858288" />
-      <entry key="H1" value="132.94239524246052" />
-      <entry key="H2" value="148.31762894951564" />
-      <entry key="H4" value="157.5309340867272" />
-      <entry key="D1" value="166.15899424743952" />
-      <entry key="W1" value="167.73451687022495" />
+      <entry key="MS100" value="0.0049443616951964035" />
+      <entry key="MS500" value="0.34579765725274125" />
+      <entry key="S2" value="0.7668413298365461" />
+      <entry key="S5" value="0.8992540890084133" />
+      <entry key="S10" value="0.951980949631556" />
+      <entry key="S30" value="2.6222228499323257" />
+      <entry key="S60" value="9.622906216576842" />
+      <entry key="M2" value="24.63967203853926" />
+      <entry key="M5" value="55.43861929421619" />
+      <entry key="M10" value="85.08298212497643" />
+      <entry key="M15" value="103.71346765881309" />
+      <entry key="M30" value="135.00290922431049" />
+      <entry key="H1" value="161.11764201116824" />
+      <entry key="H2" value="179.0871409947048" />
+      <entry key="H4" value="189.82051926589972" />
+      <entry key="D1" value="199.85907910098433" />
+      <entry key="W1" value="201.69128464394103" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -152,7 +152,7 @@
       <recent name="C:\Users\99tor\Dekstop\Work\Atellier\assets\fonts\Montserrat" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.index.html">
+  <component name="RunManager" selected="JavaScript Debug.check-online.html">
     <configuration name="check-online.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Atellier-my/check-online.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
@@ -170,11 +170,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.check-online.html" />
         <item itemvalue="JavaScript Debug.index.html" />
         <item itemvalue="JavaScript Debug.my-person.html" />
         <item itemvalue="JavaScript Debug.profile.html" />
         <item itemvalue="JavaScript Debug.my-wardrobe.html" />
-        <item itemvalue="JavaScript Debug.check-online.html" />
       </list>
     </recent_temporary>
   </component>
