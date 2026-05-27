@@ -81,29 +81,6 @@ const type = params.get('modal');
 
 if(type) openModal(type)
 
-
-
-
-// Login/Register
-
-// function isValidEmail(email) {
-//   return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
-// }
-//
-// function showError(form, message) {
-//   const errorEl = form.querySelector('.modal-form__error');
-//
-//   errorEl.textContent = message;
-//   errorEl.classList.add('modal-form__error--active');
-// }
-//
-// function hideError(form) {
-//   const errorEl = form.querySelector('.modal-form__error');
-//
-//   errorEl.textContent = '';
-//   errorEl.classList.remove('modal-form__error--active');
-// }
-
 const registerLoginButton = document.querySelector('.register__login');
 
 

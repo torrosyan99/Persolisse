@@ -1575,6 +1575,10 @@ h5 {
     width: 100%
 }
 
+.check-online__step-title {
+    margin-top: 80px;
+}
+
 .check-online__title {
     font-weight: 600
 }
@@ -2743,6 +2747,10 @@ h5 {
 
     .check-online {
         text-align: center
+    }
+
+    .check-online__step-title {
+        margin-top: 26px;
     }
 
     .check-online__textarea-item {

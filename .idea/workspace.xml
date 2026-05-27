@@ -42,59 +42,59 @@
     <decayedCancelled>
       <entry key="MS100" value="1.0" />
       <entry key="MS500" value="1.0" />
-      <entry key="S2" value="1.0" />
-      <entry key="S5" value="1.0000004492836791" />
-      <entry key="S10" value="1.003693010337236" />
-      <entry key="S30" value="2.622492778374217" />
-      <entry key="S60" value="9.428111653199805" />
-      <entry key="M2" value="23.89664438585029" />
-      <entry key="M5" value="53.57486409941203" />
-      <entry key="M10" value="82.24585239334705" />
-      <entry key="M15" value="100.35373870023575" />
-      <entry key="M30" value="130.94804057581112" />
-      <entry key="H1" value="156.62764283623537" />
-      <entry key="H2" value="174.35242651864837" />
-      <entry key="H4" value="184.9558608599213" />
-      <entry key="D1" value="194.88202231787704" />
-      <entry key="W1" value="196.69457186012508" />
+      <entry key="S2" value="1.000000000001272" />
+      <entry key="S5" value="1.0000176604202355" />
+      <entry key="S10" value="1.0051964573741763" />
+      <entry key="S30" value="1.7525991139894652" />
+      <entry key="S60" value="5.844198250707403" />
+      <entry key="M2" value="15.599367778868261" />
+      <entry key="M5" value="30.840432638895138" />
+      <entry key="M10" value="39.16963777316058" />
+      <entry key="M15" value="42.467518855234665" />
+      <entry key="M30" value="46.06842991941286" />
+      <entry key="H1" value="48.26512668591521" />
+      <entry key="H2" value="56.282674905825644" />
+      <entry key="H4" value="87.33084642266563" />
+      <entry key="D1" value="199.51114331252393" />
+      <entry key="W1" value="239.3900735173198" />
     </decayedCancelled>
     <decayedSelected>
-      <entry key="MS100" value="0.0" />
-      <entry key="MS500" value="1.8682100321212546E-120" />
-      <entry key="S2" value="1.3076880552221968E-30" />
-      <entry key="S5" value="1.5181482763426674E-12" />
-      <entry key="S10" value="1.7053467371459235E-6" />
-      <entry key="S30" value="0.01925998073993733" />
-      <entry key="S60" value="0.21389774818518154" />
-      <entry key="M2" value="0.7685248763696813" />
-      <entry key="M5" value="1.8902077909695691" />
-      <entry key="M10" value="2.857562008025231" />
-      <entry key="M15" value="3.375895995788946" />
-      <entry key="M30" value="4.064716496360662" />
-      <entry key="H1" value="4.495535136418756" />
-      <entry key="H2" value="4.737672650464221" />
-      <entry key="H4" value="4.866191518713705" />
-      <entry key="D1" value="4.977320476306423" />
-      <entry key="W1" value="4.996750664191903" />
+      <entry key="MS100" value="1.955249688817314E-9" />
+      <entry key="MS500" value="0.018123432101647408" />
+      <entry key="S2" value="0.3669104754897726" />
+      <entry key="S5" value="0.6696132590459277" />
+      <entry key="S10" value="0.8183076484191308" />
+      <entry key="S30" value="0.9558661938530565" />
+      <entry key="S60" value="1.1103919583393145" />
+      <entry key="M2" value="1.3619264217942504" />
+      <entry key="M5" value="1.671331534046612" />
+      <entry key="M10" value="1.8200670570393944" />
+      <entry key="M15" value="1.8762745513818024" />
+      <entry key="M30" value="1.9361824498358973" />
+      <entry key="H1" value="1.9754545174616" />
+      <entry key="H2" value="2.181979317712181" />
+      <entry key="H4" value="2.987408287700275" />
+      <entry key="D1" value="5.819352538189734" />
+      <entry key="W1" value="6.8113045789617646" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.0049443616951964035" />
-      <entry key="MS500" value="0.34579765725274125" />
-      <entry key="S2" value="0.7668413298365461" />
-      <entry key="S5" value="0.8992540890084133" />
-      <entry key="S10" value="0.951980949631556" />
-      <entry key="S30" value="2.6222228499323257" />
-      <entry key="S60" value="9.622906216576842" />
-      <entry key="M2" value="24.63967203853926" />
-      <entry key="M5" value="55.43861929421619" />
-      <entry key="M10" value="85.08298212497643" />
-      <entry key="M15" value="103.71346765881309" />
-      <entry key="M30" value="135.00290922431049" />
-      <entry key="H1" value="161.11764201116824" />
-      <entry key="H2" value="179.0871409947048" />
-      <entry key="H4" value="189.82051926589972" />
-      <entry key="D1" value="199.85907910098433" />
-      <entry key="W1" value="201.69128464394103" />
+      <entry key="MS100" value="1.9288119898906822E-4" />
+      <entry key="MS500" value="0.18794047577289577" />
+      <entry key="S2" value="0.9433096982122445" />
+      <entry key="S5" value="1.4533384505796016" />
+      <entry key="S10" value="1.704480401989074" />
+      <entry key="S30" value="2.6589417850610437" />
+      <entry key="S60" value="6.915252457078696" />
+      <entry key="M2" value="16.92953322561974" />
+      <entry key="M5" value="32.493206240849304" />
+      <entry key="M10" value="40.97902865981952" />
+      <entry key="M15" value="44.3363245715454" />
+      <entry key="M30" value="48.0006908347156" />
+      <entry key="H1" value="50.23856172266129" />
+      <entry key="H2" value="58.46351295366385" />
+      <entry key="H4" value="90.31742914424026" />
+      <entry key="D1" value="205.33020767278384" />
+      <entry key="W1" value="246.20132935794078" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -152,7 +152,7 @@
       <recent name="C:\Users\99tor\Dekstop\Work\Atellier\assets\fonts\Montserrat" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.check-online.html">
+  <component name="RunManager" selected="JavaScript Debug.my-person.html">
     <configuration name="check-online.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Atellier-my/check-online.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
@@ -170,9 +170,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.my-person.html" />
         <item itemvalue="JavaScript Debug.check-online.html" />
         <item itemvalue="JavaScript Debug.index.html" />
-        <item itemvalue="JavaScript Debug.my-person.html" />
         <item itemvalue="JavaScript Debug.profile.html" />
         <item itemvalue="JavaScript Debug.my-wardrobe.html" />
       </list>
