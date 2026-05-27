@@ -1585,7 +1585,7 @@ h5 {
 
 .check-online__form {
     display: flex;
-    gap: 20px
+    gap: 52px
 }
 
 .check-online__item {
@@ -1645,7 +1645,6 @@ h5 {
 }
 
 .check-online__textarea-item {
-    margin-left: 32px;
     flex-grow: 1
 }
 
@@ -2747,6 +2746,10 @@ h5 {
 
     .check-online {
         text-align: center
+    }
+
+    .check-online__form {
+        gap: 32px;
     }
 
     .check-online__step-title {
